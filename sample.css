@@ -1,3 +1,200 @@
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+    color: white;
+}
+
+/*styles for button*/
+.btn_submit, .btn_login {
+    display: inline-block;
+    margin: 0px 10px 10px 10px;
+    width: 120px;
+    padding: 20px;
+    font-size: 17px;
+    background-color: black;
+    text-align: center;
+    /*border-radius: 10px;*/
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Login {
+    background-color: blue;
+    cursor: pointer;
+    margin-left: -15px;
+}
+
+/*Styles for icon*/
+.brand_feel {
+    /*display: none;*/
+    display: inline-block;
+    /*border: 1px solid red;*/
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 300px;
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.fb {
+    background-color:  #3b5998;
+    /*border: 1px solid red;*/
+}
+
+.fab {
+    margin-right: 10px;
+}
+
+.tweet {
+    background-color: #00acee
+}
+
+.link {
+    background-color: #0e76a8;
+}
+
+.ig {
+    background-color: #8a3ab9
+}
+
+.google {
+    background-color: black;
+}
+
+/*styling positioning*/
+#header_tab {
+    height: 50px;
+    background-color: rgba(4, 140, 4, 0.07);
+    text-align: center;
+    /*margin-top: 10px;*/
+   
+}
+.menu-item {
+    display: inline-block;
+    padding: 15px 25px;
+    margin-right: 5px;
+    background-color: #23496f;
+    border: none;
+    border-radius: 5px;
+}
+main {
+    margin: 10px 30px;
+}
+.section {
+    display: inline-block;
+    width: 64%;
+    height: 350px;
+    /* border: 1px solid red; */
+    background-color: gray;
+}
+
+.aside {
+    display: inline-block;
+    height: 350px;
+    width: 35%;
+    /* border: 1px solid red; */
+    background-color: lightgray;
+}
+
+#foot {
+    height: 60px;
+    background-color: #254f76;
+    margin: 0px;
+    color: white;
+    font-size: 12px;
+}
+
+.foot_head {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/*Positioning - Static, Relative, Absolute, Fixed
+     and Sticky*/
+#pos_header_tab {
+    height: 50px;
+    background-color: rgba(4, 140, 4, 0.07);
+    text-align: center;
+    /*margin-top: 10px;*/
+    position: sticky;
+    top: 0;
+}
+
+.pos_img1, .pos_img2, .pos_img3 {
+    /*border: 1px solid red;*/
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+.pos_img {
+    /*border: 1px solid red;*/
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    /*position: relative;*/
+}
+
+.pos_img1 {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+}
+
+.pos_img2 {
+    position: fixed;
+    top: 50px;
+    right: 0px;
+    width: 80px;
+    height: 80px;
+}
+.head_4 {
+    /*position: absolute;*/
+    color: black;
+}
+
+/*Styling overflow*/
+
+#over_head_tab {
+    background-color: lightslategrey;
+    height: 50px;
+    text-align: center;
+}
+
+#over_foot {
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+}
+
+.over_img {
+    display: block;
+    width: 300px;
+}
+
+#img_wrap {
+    display: inline-block;
+    border: 1px solid red;
+    width: 200px;
+    overflow-x: auto;
+    margin-right: 80px;
+}
+
+#img_wrap2 {
+    /*display: inline-block;*/
+    border: 1px solid red;
+    width: 300px;
+    height: 290px;
+    overflow-y: auto;
+    margin-right: 80px;
 }
