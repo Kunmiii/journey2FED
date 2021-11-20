@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sample.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.0.0-beta2-web/css/all.min.css">
+    <title>pseudo-class</title>
+</head>
+<body style="background-color: silver;">
+    <div id="main">
+        <header id="pseudo_head_tab">
+            <a href="#"><span class="menu-items">Home</span></a>
+            <a href="#"><span class="menu-items">Contact</span></a>
+            <a href="#"><span class="menu-items">Register</span></a>
+            <a href="#"><span class="menu-items">Login</span></a>
+        </header>
+        
+        <div id="big_wrapper">
+            <div id="form_wrap">
+                <h3 class="pseudo_head">Register</h3>
+                <form class="signup_form" action="[POST]">
+                    <input class="form_input" type="text" placeholder="Fullname">
+                    <input class="form_input" type="text" placeholder="Email"required>
+                    <input class="form_input" type="text" placeholder="Age">
+                    <input class="form_input" type="password" placeholder="Password" required>
+                    <input class="form_input" type="password" placeholder="Confirm Password" required>
+                    <input class="chkbox" type="checkbox"> <label class="chkbx_text" for="checkbox">I agree to
+                        accept terms & conditions
+                    </label>
+                    <input class="form_input Submit" type="button" name="button" value="Submit">  
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="foot_wrap">
+        <footer class="pseudo_foot">
+            <h4 class="pseudo_foot_head">Copyrights 2021 (c)</h4>
+        </footer>
+    </div> -->
+</body>
+</html>
