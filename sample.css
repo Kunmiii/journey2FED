@@ -244,3 +244,45 @@ span.menu-item {
 .float_para {
     text-align: justify;
 }
+
+/*Styling Box Model*/
+.box_header_tab {
+     text-align: center;
+    background: white;
+    border-bottom: 1px solid rgb(224, 209, 209);
+    position: sticky;
+    top: 0;
+    color: black;
+    opacity: 0.8;
+    box-shadow: 0px 0px 2px gray;
+}
+
+#box_img_wrap {
+    border:2px solid blue;
+    width: 350px;
+    margin: 30px;
+    display: inline-block;
+}
+
+.box_img {
+    width: 300px;
+    padding: 5px;
+    border: 5px solid red;
+    margin-left: 22px;
+    box-sizing: border-box;
+    
+}
+
+.box_img1 {
+    width: 300px;
+    padding: 5px;
+    border: 5px solid red;
+    margin-left: 22px;
+    /*box-sizing: border-box;*/
+}
+
+.box_header {
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+}
