@@ -394,4 +394,13 @@ input.chkbox {
 /* Pseudo class usage */
 input.form_input.Submit:hover {
     cursor: pointer;
+    background-color: rgb(34, 132, 165);
+}
+
+.form_input:focus {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.form_input:focus:required {
+    background-color: rgba(79, 102, 79, 0.5);
 }
