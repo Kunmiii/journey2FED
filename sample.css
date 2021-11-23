@@ -444,3 +444,39 @@ article > p::first-letter {
     background-size: contain;
     box-sizing: content-box;
 }
+
+/* styling gradients */
+#div1, #div2, #div3, #div4 {
+    display: inline block;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div1 {
+    background-image: linear-gradient(to right, green, 
+    white, green);
+    box-shadow: 5px 4px 10px gray;
+}
+
+#div2 {
+    background-image: linear-gradient(to left, red, 
+    orange, yellow, gray, white);
+    box-shadow: 5px 4px 5px gray;
+}
+
+#div3 {
+    background-image: linear-gradient(to bottom, black,gray,
+     black, white);
+     box-shadow: 2px 2px 10px gray;
+}
+
+#div4 {
+    background-image: linear-gradient(to right, rgba(33, 167, 33, 0), 
+    rgba(33, 167, 33, 1));
+}
+
