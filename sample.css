@@ -439,7 +439,7 @@ article > p::first-letter {
 #back_image {
     margin: 0;
     height: 720px;
-    background-image: url('images/img1.jpg');
+    background-image: url('images/img3.jpg');
     background-position: center;
     background-size: contain;
     box-sizing: content-box;
