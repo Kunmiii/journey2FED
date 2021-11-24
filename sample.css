@@ -483,27 +483,32 @@ article > p::first-letter {
 }
 
 /* Text overflow styles */
-.txt_head_tab{
+.txt_head_tab {
     background-image: linear-gradient(to right, white,
      gray);
-     text-align: right;
-     height: 40px;  
-     position: sticky;
-     top: 0px;
+    text-align: right;
+    box-shadow: 0px 0px 4px lightslategray;
+    height: 40px;
+    position: sticky;
+    top: 0px;
+    border-bottom: 1px solid lightgray;
 }
 
 .logo {
     height: 40px;
     position: relative;
-    right: 860px;
+    right: 960px;
 }
 
 .txt_menu-item {
+    display: inline-block;
     position: relative;
+    width: 60px;
     top: -15px;
     padding: 15px;
     font-size: 15px;
-    right: 150px;
+    right: 250px;
+    text-align: center;
 }
 
 .txt_menu-item a {
@@ -514,15 +519,17 @@ article > p::first-letter {
 #card_wrap {
     display: flex;
     margin-top: 100px;
-    width: 90%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
+    justify-content: flex-end;
+    align-content: flex-end;
 }
 
 #card1, #card2, #card3 {
     display: inline-block;
     width: 380px;
-    height: 340px;
+    height: 310px;
     background-image: linear-gradient(to bottom, gray, white);
     box-shadow: 0px 0px 4px gray;
     margin-bottom: 20px;
@@ -542,5 +549,14 @@ article > p::first-letter {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.card_text{
+    color: black;
+    text-align: justify;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 10px 18px;
 }
 
