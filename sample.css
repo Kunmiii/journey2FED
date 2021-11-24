@@ -586,7 +586,7 @@ article > p::first-letter {
     text-decoration: underline;
 }
 
-.icon-wrap {
+#icon-wrap {
     display: inline-block;
     /* border: 1px solid red; */
     /* height: 38px; */
@@ -608,9 +608,9 @@ img.user_icon {
     border-radius: 100%;
 }
 
-.material-icons:hover {
+/* .material-icons:hover {
     
-}
+} */
 
 #brand_wrap {
     /* border: 1px solid red; */
@@ -704,17 +704,31 @@ img.user_icon {
 }
 
 .goo_voice_icon1 {
-    border: 1px solid red;
-    height: 40px;
+    /* border: 1px solid red; */
+    height: 30px;
+    margin: 10px;
     box-sizing: border-box;
+}
+
+img.goo_voice_icon1:hover {
+    box-shadow: 1px 1px 4px lightslategrey;
 }
 
 .icon_desc {
     color: black;
     font-size: 10px;
+    text-align: -webkit-center;
 }
 
 #apps_icon {
-    border: 1px solid red;
-    display: inline-block;
+    display: none;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 55px;
+    right: 12px;
+    padding: 20px;
+}
+
+#icon-wrap:hover #apps_icon {
+    display: block;
 }
