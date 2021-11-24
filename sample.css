@@ -483,17 +483,64 @@ article > p::first-letter {
 }
 
 /* Text overflow styles */
+.txt_head_tab{
+    background-image: linear-gradient(to right, white,
+     gray);
+     text-align: right;
+     height: 40px;  
+     position: sticky;
+     top: 0px;
+}
+
+.logo {
+    height: 40px;
+    position: relative;
+    right: 860px;
+}
+
+.txt_menu-item {
+    position: relative;
+    top: -15px;
+    padding: 15px;
+    font-size: 15px;
+    right: 150px;
+}
+
+.txt_menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
 #card_wrap {
-    /* display: inline-block; */
+    display: flex;
+    margin-top: 100px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
+
 #card1, #card2, #card3 {
     display: inline-block;
-    width: 400px;
-    height: 300px;
+    width: 380px;
+    height: 340px;
     background-image: linear-gradient(to bottom, gray, white);
     box-shadow: 0px 0px 4px gray;
     margin-bottom: 20px;
-    
+    margin-right: 20px;
+    box-sizing: border-box;
 }
+
+.card_image {
+    box-sizing: border-box;
+    width: inherit;
+}
+
+.card_head {
+    color: black;
+    margin: 10px 18px;
+    /* border: 1px solid red; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
