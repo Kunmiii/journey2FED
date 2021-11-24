@@ -560,3 +560,161 @@ article > p::first-letter {
     margin: 10px 18px;
 }
 
+/* Styles for google exercise */
+
+#goo_header_tab {
+    height: 72px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.goo_menu_item {
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+.goo_menu_item > a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.goo_menu_item:hover {
+    text-decoration: underline;
+}
+
+.icon-wrap {
+    display: inline-block;
+    /* border: 1px solid red; */
+    /* height: 38px; */
+    box-sizing: border-box;
+    /* border-radius: 100%; */
+}
+
+.menu-wrap {
+    display: inline-block;
+    /* border: 1px solid red; */
+    /* height: 28px; */
+    padding: 5px;
+    position: relative;
+    top: -6px;
+}
+
+img.user_icon {
+    width: 24px;
+    border-radius: 100%;
+}
+
+.material-icons:hover {
+    
+}
+
+#brand_wrap {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 95px 0px 20px 0px;
+}
+
+.goo_brand {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#goo_form_wrap {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+#goo_form_wrap {
+    /* border: 1px solid red; */
+}
+
+.search_input {
+    width: 600px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(201 200 200 / 87%);
+    border-width: thin;
+    font-size: 14px;
+}
+
+.search_input:active {
+    border-width: thin;
+}
+
+.search_input:hover {
+    box-shadow: 2px 2px 6px #808080e0;
+    cursor: pointer;
+}
+
+.goo_search_icon {
+    height: 25px;
+    position: relative;
+    top: 10px;
+    left: 32px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.goo_voice_icon {
+    height: 22px;
+    position: relative;
+    top: 7px;
+    right: 33px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#button_wrap {
+    /* border: 1px solid red; */
+    margin: 20px 0px 0px 0px
+}
+
+.goo_search_btn, .goo_feel_btn {
+    width: 150px;
+    height: 36px;
+    border: none;
+    /* border: 1px solid red; */
+    padding: 10px;
+    border-width: thin;
+    font-size: 14px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.goo_feel_btn:hover {
+    box-shadow: 2px 2px 6px #808080e0;
+    cursor: pointer;
+}
+
+.goo_search_btn:hover {
+    box-shadow: 2px 2px 6px #808080e0;
+    cursor: pointer;
+}
+
+.goo_voice_icon1 {
+    border: 1px solid red;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.icon_desc {
+    color: black;
+    font-size: 10px;
+}
+
+#apps_icon {
+    border: 1px solid red;
+    display: inline-block;
+}
