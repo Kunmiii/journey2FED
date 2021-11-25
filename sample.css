@@ -497,7 +497,7 @@ article > p::first-letter {
 .logo {
     height: 40px;
     position: relative;
-    right: 960px;
+    right: 765px;
 }
 
 .txt_menu-item {
@@ -519,7 +519,7 @@ article > p::first-letter {
 #card_wrap {
     display: flex;
     margin-top: 100px;
-    width: 75%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     justify-content: flex-end;
