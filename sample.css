@@ -859,4 +859,58 @@ img.goo_voice_icon1:hover {
 }
 
 
+/* Using media queries */
+@media screen and (max-width:1200px) {
+    .article_wrap {
+        width: 100%;
+    }
 
+    .side_contents {
+        width: 100%;
+        margin-top: 20px;
+
+    }
+}
+
+@media screen and (max-width:768px){
+    .article_wrap {
+        display: inline-block;
+        width: 100%;
+        margin: 0px;
+        vertical-align: none;
+    }
+}  
+
+@media screen and (max-width:425px){
+    .banner_wrap img {
+        height: 270px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .banner_wrap img {
+        height: 270px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .banner_wrap img {
+        height: 270px;
+    }
+
+    #nav_bar span {
+        width: 60px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:280px){
+    .banner_wrap img {
+        height: 270px;
+    }
+
+    #nav_bar span {
+        width: 50px;
+        font-size: 15px;
+    }
+}
