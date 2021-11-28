@@ -248,7 +248,7 @@ span.menu-item {
 
 /*Styling Box Model*/
 .box_header_tab {
-     text-align: center;
+    text-align: center;
     background: white;
     border-bottom: 1px solid rgb(224, 209, 209);
     position: sticky;
@@ -279,7 +279,7 @@ span.menu-item {
     padding: 5px;
     border: 5px solid red;
     margin-left: 22px;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 .box_header {
@@ -288,6 +288,141 @@ span.menu-item {
     font-size: 18px;
 }
 
+@media screen and (max-width:1024px) {
+    span.menu-item {
+        background-color: white;
+        padding: 20px;
+        font-size: 18px;
+    }
+    
+    .box_header {
+        color: black;
+        text-align: justify;
+        font-size: 23px;
+    }
+    
+    .box_img {
+        margin: 0px 25px;
+        width: 200px;
+    }
+
+    .box_img1 {
+        margin: 0px 23px;
+        width: 200px;
+    }
+    
+    .box_header {
+        color: black;
+        text-align: justify;
+        font-size: 25px;
+    }
+    
+    #box_img_wrap {
+        width: 403px;
+        margin: 10px 49px;
+        text-align: center;
+        height: 446px;
+        vertical-align: top;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .box_img {
+        margin: 0px 25px;
+        width: 150px;
+    }
+
+    .box_img1 {
+        margin: 0px 23px;
+        width: 150px;
+    }
+    
+    #box_img_wrap {
+        width: 328px;
+        margin: 10px 23px;
+        text-align: center;
+        height: 330px;
+        vertical-align: top;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .box_img {
+        margin: 0px 75px;
+        width: 150px;
+    }
+    
+    #box_img_wrap {
+        width: 300px;
+        margin: 10px 58px;
+    }
+    
+    .box_img1 {
+        width: 150px;
+        margin: 0px 75px;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .box_img {
+        margin: 0px 75px;
+        width: 150px;
+    }
+    
+    #box_img_wrap {
+        width: 300px;
+        margin: 10px 50px;
+    }
+    
+    .box_img1 {
+        width: 150px;
+        margin: 0px 75px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .box_img {
+        margin: 0px 25px;
+        width: 150px;
+    }
+
+    .box_img1 {
+        margin: 0px 25px;
+        width: 150px;
+    }
+    
+    #box_img_wrap {
+        width: 270px;
+        margin: 10px 50px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .box_img {
+        margin: 0px 25px;
+        width: 140px;
+    }
+
+    .box_img1 {
+        margin: 0px 23px;
+        width: 140px;
+    }
+    
+    .box_header {
+        color: black;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    #box_img_wrap {
+        width: 270px;
+        height: auto;
+        margin: 60px 25px;
+        text-align: center;
+        display: block;
+    }
+}
 /* Styles for Pseudo Class Practise */
 #pseudo_head_tab {
     background-color: rgb(233, 233, 233);
