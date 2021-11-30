@@ -1049,3 +1049,46 @@ img.goo_voice_icon1:hover {
         font-size: 15px;
     }
 }
+
+/* styling flex layout */
+#div_wrap {
+    height: auto;
+    border: 1px solid red;
+    color: white;
+    background-color: lightcoral;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+    
+}
+
+#div_wrap2 {
+    height: auto;
+    border: 1px solid red;
+    color: white;
+    background-color: lightcoral;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: flex-end;
+}
+
+#div_wrap3 {
+    height: auto;
+    border: 1px solid red;
+    color: white;
+    background-color: lightcoral;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content:
+}
+
+.div {
+    border: 1px solid black;
+    display: inline-flex;
+    /* padding: 4px; */
+    width: 80px;
+    height: 23px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
