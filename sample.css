@@ -1079,7 +1079,17 @@ img.goo_voice_icon1:hover {
     background-color: lightcoral;
     display: flex;
     /* flex-direction: row-reverse; */
-    justify-content:
+    justify-content: flex-start;
+}
+
+#div_wrap4 {
+    height: auto;
+    border: 1px solid red;
+    color: white;
+    background-color: lightcoral;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content
 }
 
 .div {
