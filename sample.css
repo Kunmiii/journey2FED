@@ -955,7 +955,7 @@ img.goo_voice_icon1:hover {
 }
 
 .side_contents .advert:last-of-type {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-bottom: 0px;
 }
 
@@ -1125,6 +1125,41 @@ input.search {
     margin-right: 10px;
 }
 
+#advert_container {
+    display: inline-flex;
+}
+
+.flex_side_contents .advert:last-of-type {
+    /* border: 1px solid red; */
+    margin-bottom: 0px;
+}
+
+.flex_side_contents {
+    display: inline-flex;
+    /* width: 33%; */
+    /* margin-right: 20px; */
+    margin-top: 40px;
+    /* border: 1px solid red; */
+    /* vertical-align: top; */
+    background-color: white;
+    box-shadow: 0px 2px 4px #aaaa;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex_side_contents .advert {
+    border: 1px solid red;
+    color: black;
+    width: 25%;
+    /* width: -webkit-fill-available; */
+    margin-bottom: 20px;
+    /* box-sizing: border-box; */
+}
+
 @media screen and (max-width:880px) {
    
     .nav_bar {
@@ -1136,20 +1171,57 @@ input.search {
     #menu-left, #menu-right {
         flex-direction: column;
         /* border: 1px solid red; */
-  }
+    }
 
-  input.search {
-      display: none;
-  }
-}
+    input.search {
+        display: none;
+    }
 
-@media screen and (max-width: 1024px) {
     .flex_menu_item {
         /* border: 1px solid red; */
         margin: 0px 5px;
         line-height: 30px;
-        width: 80px;
+        width: 50%;
         text-align: center;
     }
-    
+
+    .flex_side_contents .advert {
+        /* border: 1px solid red; */
+        color: black;
+        width: 40%;
+        /* width: -webkit-fill-available; */
+        margin-bottom: 20px;
+        /* box-sizing: border-box; */
+    }
+
 }
+
+    @media screen and (max-width: 1024px) {
+        .flex_menu_item {
+            /* border: 1px solid red; */
+            margin: 0px 5px;
+            line-height: 30px;
+            width: 80px;
+            text-align: center;
+        }
+
+        .flex_side_contents .advert {
+            /* border: 1px solid red; */
+            color: black;
+            width: 40%;
+            /* width: -webkit-fill-available; */
+            margin-bottom: 20px;
+            /* box-sizing: border-box; */
+        }
+    }
+    
+@media screen and (max-width: 425px) {
+    .flex_side_contents .advert {
+        /* border: 1px solid red; */
+        color: black;
+        width: 90%;
+        /* width: -webkit-fill-available; */
+        margin-bottom: 20px;
+        /* box-sizing: border-box; */
+    }
+}  
