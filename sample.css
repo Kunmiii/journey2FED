@@ -1125,7 +1125,7 @@ input.search {
     margin-right: 10px;
 }
 
-@media screen and (max-width:770px) {
+@media screen and (max-width:880px) {
    
     .nav_bar {
         /* border: 1px solid red; */
@@ -1141,4 +1141,15 @@ input.search {
   input.search {
       display: none;
   }
+}
+
+@media screen and (max-width: 1024px) {
+    .flex_menu_item {
+        /* border: 1px solid red; */
+        margin: 0px 5px;
+        line-height: 30px;
+        width: 80px;
+        text-align: center;
+    }
+    
 }
