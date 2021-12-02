@@ -1051,54 +1051,94 @@ img.goo_voice_icon1:hover {
 }
 
 /* styling flex layout */
-#div_wrap {
-    height: auto;
+#div_wrap, #div_wrap2, #div_wrap3  {
     border: 1px solid red;
     color: white;
     background-color: lightcoral;
     display: flex;
-    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
     justify-content: center;
-    
+    margin-top: 10px;
+    padding: 30px;
 }
 
 #div_wrap2 {
-    height: auto;
-    border: 1px solid red;
-    color: white;
-    background-color: lightcoral;
-    display: flex;
-    /* flex-direction: row-reverse; */
     justify-content: flex-end;
 }
 
 #div_wrap3 {
-    height: auto;
-    border: 1px solid red;
-    color: white;
-    background-color: lightcoral;
-    display: flex;
-    /* flex-direction: row-reverse; */
     justify-content: flex-start;
-}
-
-#div_wrap4 {
-    height: auto;
-    border: 1px solid red;
-    color: white;
-    background-color: lightcoral;
-    display: flex;
-    /* flex-direction: row-reverse; */
-    justify-content
 }
 
 .div {
     border: 1px solid black;
-    display: inline-flex;
-    /* padding: 4px; */
-    width: 80px;
-    height: 23px;
+    margin-right: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    /* align-items: center; */
+}
+
+.nav_bar {
+    /* border: 1px solid red; */
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px;
+    box-shadow: 0px 0px 4px #aaaa;
+}
+
+.user-acct {
+    /* border: 1px solid red; */
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.flex-logo {
+    /* border: 1px solid red; */
+    height: 40px;
+}
+
+#menu-left, #menu-right {
+    /* border: 1px solid red; */
+    display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 20px;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.flex_menu_item {
+    /* border: 1px solid red; */
+    margin: 0px 15px;
+    line-height: 30px;
+    width: 80px;
+    text-align: center;
+}
+
+input.search {
+    line-height: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:770px) {
+   
+    .nav_bar {
+        /* border: 1px solid red; */
+        flex-direction: column;
+       
+    }
+
+    #menu-left, #menu-right {
+        flex-direction: column;
+        /* border: 1px solid red; */
+  }
+
+  input.search {
+      display: none;
+  }
 }
