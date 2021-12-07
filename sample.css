@@ -1275,18 +1275,21 @@ input.search {
     transform: rotate(87deg);
     display: inline-block;
 
-    animation: float 3s infinite;
-    animation-timing-function: ease-in-out;
+    animation: float 3s infinite 5s;
+    /* animation-timing-function: ease-in-out; */
+    
 }
 
 @keyframes float {
     0% {
         bottom: 0px;
-        animation-timing-function: ease-in;
+        /* animation-timing-function: ease-in; */
+        
     }
 
     100% {
         top: 120px;
-        animation-timing-function: ease-out;
+        /* animation-timing-function: ease-out; */
+        animation-delay: 10s;
     }
 }
